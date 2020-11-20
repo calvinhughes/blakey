@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/calvinhughes/blakey/contents/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.19.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token <GITHUB_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 24 Nov 2020 21:54:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      - Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"6687d992459f132712232db36dcd75e260298ba0"
+      Last-Modified:
+      - Tue, 24 Nov 2020 19:57:14 GMT
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1606258498'
+      X-Ratelimit-Used:
+      - '1'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
+        X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - FD4B:7B3C:A2AFBC:BF42B8:5FBD8132
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":"README.md","path":"README.md","sha":"6687d992459f132712232db36dcd75e260298ba0","size":3583,"url":"https://api.github.com/repos/calvinhughes/blakey/contents/README.md?ref=main","html_url":"https://github.com/calvinhughes/blakey/blob/main/README.md","git_url":"https://api.github.com/repos/calvinhughes/blakey/git/blobs/6687d992459f132712232db36dcd75e260298ba0","download_url":"https://raw.githubusercontent.com/calvinhughes/blakey/main/README.md?token=ACHSBGD75C667BN3QMG5MI27XWAW4","type":"file","content":"IyBCbGFrZXkKCkJsYWtleSBpcyBhIFJ1YnkgZ2VtIGJ1aWx0IHRvIG1ha2Ug\nZXh0cmFjdCBiYXNpYyBzdGF0aXN0aWNzIGFuZCBpbmZvcm1hdGlvbiBmcm9t\nIHlvdXIgcmVwb3NpdG9yaWVzL3Byb2plY3RzIG11Y2ggZWFzaWVyLiBJdCBj\nYW4gYmUgdXNlZCBmb3IgbWFuYXVsIGF1ZGl0aW5nLCBvciB0aGUgaW5mb3Jt\nYXRpb24gY2FuIGJlIHB1c2hlZCBlbHNld2hlcmUgZm9yIGNvbnN0YW50IHJl\ncG9ydGluZy4KCgpDdXJyZW50bHkgaXQgYWxsb3dzIHlvdSBmaW5kIG91dCBz\nb21lIHVzZWZ1bCBpbmZvcm1hdGlvbiBzdWNoIGFzOgoKLSBsYW5ndWFnZSB2\nZXJzaW9ucwotIGRlcGVuZGVuY2llcyBhbmQgdGhlIGluc3RhbGxlZCB2ZXJz\naW9ucwotIHJlbW90ZSByZXBvc2l0b3J5IGluZm9ybWF0aW9uIChlLmcuIGFy\nZSBHaXRIdWIgdnVsbmVyYWJpbGl0eSBhbGVydHMgZW5hYmxlZD8gaG93IG1h\nbnkgaXNzdWVzIGFyZSBvcGVuPykKCgojIyBVbmRlcnN0YW5kaW5nIEJsYWtl\neQoKQmxha2V5IGNvbnNpc3RzIG9mIHR3byBwYXJ0czoKCiMjIyMgU291cmNl\nCldoZXJlIHRoZSBiYXNlIGRhdGEsIGFuZCBhbnkgZmlsZXMgdXNlZCBmb3Ig\naW5zcGVjdGluZyBhcmUgcmV0cmlldmVkIGZyb20uIEZvciBleGFtcGxlOiBH\naXRIdWIsIEdpdExhYiwgbWFudWFsIGdpdCByZXBvc2l0b3J5IG9yIGxvY2Fs\nIGZpbGUgc3lzdGVtcy4gT2Z0ZW4gdGhpcyB3aWxsIGJlIGEgd3JhcHBlciBv\nbiB0b3Agb2YgdGhlIHNvdXJjZSdzIEFQSS4KClNvdXJjZXMgY3VycmVudGx5\nIHN1cHBvcnRlZDoKCi0gR2l0SHViCgoKIyMjIyBSZXBvc2l0b3J5ClRoZSBy\nZXBvc2l0b3J5IHRoYXQgaXMgYmVpbmcgaW5zcGVjdGVkLiBSZXBvc2l0b3Jp\nZXMgbXVzdCBiZSBvZiBhIHBhcnRpY3VsYXIgbGFuZ3VhZ2UgdHlwZSAoZm9y\nIGV4YW1wbGU6IFJ1YnksIEphdmFTY3JpcHQpLCBhbmQgbXVzdCB0YWtlIGEg\nc291cmNlLiBUaGlzIHJlcG9zaXRvcnkgdGhlbiBoYXMgdGhlIHNwZWNpZmlj\nIGluZm9ybWF0aW9uIHJlbGF0ZWQgdG8gdGhlIHJlcG9zaXRvcnkgdHlwZSBp\ndHNlbGYsIHN1Y2ggYXMgdGhlIHNwZWNpZmljIGxhbmd1YWdlIHZlcnNpb25z\nIGluIHVzZSwgZGVwZW5kZW5jaWVzIHRoYXQgYXJlIGxvYWRlZC4KClJlcG9z\naXRvcnkgdHlwZXMgY3VycmVudGx5IHN1cHBvcnRlZDoKCi0gUnVieQoKCiMj\nIEluc3RhbGxhdGlvbgoKQWRkIHRoaXMgbGluZSB0byB5b3VyIGFwcGxpY2F0\naW9uJ3MgR2VtZmlsZToKCmBgYHJ1YnkKZ2VtICdibGFrZXknCmBgYAoKQW5k\nIHRoZW4gZXhlY3V0ZToKCiAgICAkIGJ1bmRsZSBpbnN0YWxsCgpPciBpbnN0\nYWxsIGl0IHlvdXJzZWxmIGFzOgoKICAgICQgZ2VtIGluc3RhbGwgYmxha2V5\nCgojIyBVc2FnZQoKIyMjIEluaXQgQmxha2V5ClRvIGdldCBzdGFydGVkLCBp\nbml0aWFsaXplIHlvdXIgc291cmNlIGFuZCBSZXBvc2l0b3J5IG9iamVjdDoK\nYGBgCiMgYWRkIEdpdEh1YiB0b2tlbiBmb3IgYWNjZXNzX3Rva2VuIHZhbHVl\nLiBBbHNvIHN1cHBvcnRzIHNldHRpbmcgaXQgdmlhIEdJVEhVQl9BQ0NFU1Nf\nVE9LRU4gZW52CgpnaXRodWJfc291cmNlID0gQmxha2V5OjpTb3VyY2U6Okdp\ndGh1Yi5uZXcoYWNjZXNzX3Rva2VuOiAndG9rZW4nLCByZXBvX3BhdGg6ICdj\nYWx2aW5odWdoZXMvYmxha2V5JykKcmVwb3NpdG9yeSA9IEJsYWtleTo6UmVw\nb3NpdG9yeTo6UnVieS5uZXcoc291cmNlOiBnaXRodWJfc291cmNlKQpgYGAK\nCllvdSBjYW4gdGhlbiBydW4gYW55IG9mIHRoZSBzdXBwb3J0ZWQgbWV0aG9k\ncyBvbiB0aGUgcmVwb3NpdG9yeS4KCgojIyMjIFJldHJpZXZlIFJ1YnkgdmVy\nc2lvbgpVc2VzIGAucnVieS12ZXJzaW9uYCBmb3IgdGhlIFJ1YnkgdmVyc2lv\nbiBzb3VyY2UsIGZhbGxpbmcgYmFjayB0byB0aGUgcnVieSB2ZXJzaW9uIGRl\nZmluZWQgaW4gdGhlIGBHZW1maWxlLmxvY2tgCgpgYGAKcmVwb3NpdG9yeS5y\ndWJ5X3ZlcnNpb24KIyA9PiAiMi43LjEiCmBgYAoKCiMjIyMgUmV0cmlldmUg\nbGlzdCBvZiBnZW0gZGVwZW5kZW5jaWVzIGFuZCB0aGVpciB2ZXJzaW9uCmBg\nYApyZXBvc2l0b3J5LmdlbV9kZXBlbmRlbmNpZXMKIyA9PiB7InJhaWxzIiA9\nPiAiNi4wLjEiLCAiYmxha2V5IiA9PiAiMC4xLjAifQpgYGAKCgojIyMjIFJl\ndHJpZXZlIHZlcnNpb24gZm9yIGEgc3BlY2lmaWMgZ2VtIGRlcGVuZGVuY3k6\nCmBgYApyZXBvc2l0b3J5LmdlbV9kZXBlbmRlbmN5X3ZlcnNpb24oJ3JhaWxz\nJykKIyA9PiAiNi4wLjEiCmBgYAoKCiMjIyMgUmV0cmlldmUgc29tZSBHaXRI\ndWIgc3RhdHMgZm9yIHRoZSByZXBvc2l0b3J5OgpUaGlzIHJldHVybnMgc29t\nZSBiYXNpYyBzdGF0cyBmcm9tIHRoZSBHaXRIdWIgcmVwb3NpdG9yeSBkaXJl\nY3RseSBmcm9tIHRoZSBHaXRIdWIgQVBJLgpgYGAKcmVwb3NpdG9yeS5zb3Vy\nY2Vfb3ZlcnZpZXcKIyA9PiB7CiAgICAgICA6b3Blbl9pc3N1ZXNfY291bnQ9\nPjE0MywgIyBjb3VudCBvZiBvcGVuIGlzc3VlcwogICAgICAgOmxhbmd1YWdl\nPT4iUnVieSIsICMgY29uZmlndXJlZCBsYW5ndWFnZSBvZiB0aGUgcmVwbwog\nICAgICAgOnZpc2liaWxpdHk9PiJwcml2YXRlIiwgIyB2aXNpYmlsaXR5IG9m\nIHRoZSByZXBvCiAgICAgICA6dXJsPT4iaHR0cHM6Ly9naXRodWIuY29tL2Nh\nbHZpbmh1Z2hlcy9ibGFrZXkiLCAjIHVybCBvZiB0aGUgcmVwbwogICAgICAg\nOnVwZGF0ZWRfYXQ9PjIwMjAtMTEtMjAgMTM6NDM6NTQgVVRDLCAjIHdoZW4g\naXQgd2FzIGxhc3QgdXBkYXRlZAogICAgICAgOmNyZWF0ZWRfYXQ9PjIwMTIt\nMDMtMTYgMDk6MTQ6MzQgVVRDLCAjIHdoZW4gaXQgd2FzIGNyZWF0ZWQKICAg\nICAgIDpsYXN0X3B1c2hlZF9hdD0+MjAyMC0xMS0yMCAxNDowMTo0MCBVVEMs\nICMgd2hlbiBpdCB3YXMgbGFzdCBwdXNoZWQgdG8KICAgICAgIDp2dWxuZXJh\nYmlsaXR5X2FsZXJ0c19lbmFibGVkPT5mYWxzZSAjIHdoZXRoZXIgdnVsbmVy\nYWJpbGl0eSBhbGVydHMgYXJlIGVuYWJsZWQKICAgICB9CmBgYAoKCiMjIERl\ndmVsb3BtZW50CgpBZnRlciBjaGVja2luZyBvdXQgdGhlIHJlcG8sIHJ1biBg\nYmluL3NldHVwYCB0byBpbnN0YWxsIGRlcGVuZGVuY2llcy4gWW91IGNhbiBh\nbHNvIHJ1biBgYmluL2NvbnNvbGVgIGZvciBhbiBpbnRlcmFjdGl2ZSBwcm9t\ncHQgdGhhdCB3aWxsIGFsbG93IHlvdSB0byBleHBlcmltZW50LgoKVG8gaW5z\ndGFsbCB0aGlzIGdlbSBvbnRvIHlvdXIgbG9jYWwgbWFjaGluZSwgcnVuIGBi\ndW5kbGUgZXhlYyByYWtlIGluc3RhbGxgLiBUbyByZWxlYXNlIGEgbmV3IHZl\ncnNpb24sIHVwZGF0ZSB0aGUgdmVyc2lvbiBudW1iZXIgaW4gYHZlcnNpb24u\ncmJgLCBhbmQgdGhlbiBydW4gYGJ1bmRsZSBleGVjIHJha2UgcmVsZWFzZWAs\nIHdoaWNoIHdpbGwgY3JlYXRlIGEgZ2l0IHRhZyBmb3IgdGhlIHZlcnNpb24s\nIHB1c2ggZ2l0IGNvbW1pdHMgYW5kIHRhZ3MsIGFuZCBwdXNoIHRoZSBgLmdl\nbWAgZmlsZSB0byBbcnVieWdlbXMub3JnXShodHRwczovL3J1YnlnZW1zLm9y\nZykuCgojIyBDb250cmlidXRpbmcKCkJ1ZyByZXBvcnRzIGFuZCBwdWxsIHJl\ncXVlc3RzIGFyZSB3ZWxjb21lIG9uIEdpdEh1YiBhdCBodHRwczovL2dpdGh1\nYi5jb20vY2FsdmluaHVnaGVzL2JsYWtleS4KCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/calvinhughes/blakey/contents/README.md?ref=main","git":"https://api.github.com/repos/calvinhughes/blakey/git/blobs/6687d992459f132712232db36dcd75e260298ba0","html":"https://github.com/calvinhughes/blakey/blob/main/README.md"}}'
+  recorded_at: Tue, 24 Nov 2020 21:54:03 GMT
+recorded_with: VCR 6.0.0
