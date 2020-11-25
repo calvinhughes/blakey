@@ -12,8 +12,7 @@ describe Blakey::Source::Github do
         url: 'https://github.com/calvinhughes/blakey',
         updated_at: Time.parse('2020-11-24T18:50:40Z'),
         created_at: Time.parse('2020-11-21T14:51:30Z'),
-        last_pushed_at: Time.parse('2020-11-24T18:50:38Z'),
-        vulnerability_alerts_enabled: false
+        last_pushed_at: Time.parse('2020-11-24T18:50:38Z')
       })
     end
   end
