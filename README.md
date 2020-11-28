@@ -79,6 +79,18 @@ Some sources using remote APIs in the development environment may require authen
 |--------|------------------------------------------|-------------|
 | GitHub | `BLAKEY_TEST_SOURCE_GITHUB_ACCESS_TOKEN` | The test personal access token from GitHub used for requests in the test environment. Default value: `fake_github_access_token` |
 
+To test the project, you can bundle gems and then run the specs:
+```
+bundle
+rake
+```
+
+Or if you want to replicate the TravisCI setup and run across many Ruby versions (recommended) then you can use [wwtd](https://github.com/grosser/wwtd):
+```
+gem install wwtd
+wwtd
+```
+
 
 ## Contributing
 
