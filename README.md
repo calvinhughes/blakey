@@ -1,6 +1,6 @@
 # Blakey
 
-[![Build Status](https://travis-ci.org/calvinhughes/blakey.svg?branch=main)](https://travis-ci.org/calvinhughes/blakey)
+[![Build Status](https://travis-ci.org/calvinhughes/blakey.svg?branch=main)](https://travis-ci.org/calvinhughes/blakey) [![Gem Version](https://badge.fury.io/rb/blakey.svg)](https://badge.fury.io/rb/blakey)
 
 Blakey is a Ruby gem built to take the hassle out of extracting useful information from your projects. It allows you to easily plug in sources of information about your project, which can then be used as a common data-source for reporting purposes.
 
