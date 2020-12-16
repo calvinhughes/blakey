@@ -24,6 +24,14 @@ describe Blakey::Repository::Ruby::GemfileLockParser do
 
         expect(subject.version).to eq('2.7.1')
       end
+
+      context 'when the version contains ruby prefix' do
+        before { allow(gemfile_lock_parser).to receive(:ruby_version).and_return('ruby 2.7.1p157') }
+
+        it 'returns the version number only without the ruby prefix' do
+          expect(subject.version).to eq('2.7.1p157')
+        end
+      end
     end
 
     context 'when gemfile lock does not have ruby version' do
@@ -33,6 +41,14 @@ describe Blakey::Repository::Ruby::GemfileLockParser do
         expect(source).to receive(:read_file).with('.ruby-version')
 
         expect(subject.version).to eq('2.6.5')
+      end
+
+      context 'when the version contains ruby prefix' do
+        before { allow(source).to receive(:read_file).with('.ruby-version').and_return('ruby 2.6.5p50') }
+
+        it 'returns the version number only without the ruby prefix' do
+          expect(subject.version).to eq('2.6.5p50')
+        end
       end
     end
   end
