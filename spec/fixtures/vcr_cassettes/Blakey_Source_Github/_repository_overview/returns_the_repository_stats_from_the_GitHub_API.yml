@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 24 Nov 2020 19:45:44 GMT
+      - Tue, 22 Dec 2020 23:03:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -39,9 +39,9 @@ http_interactions:
       - Accept-Encoding
       - Accept-Encoding, Accept, X-Requested-With
       Etag:
-      - W/"912ef0a31df581cb8c0dcc158b3ee4943b4a7f01ea7a0f34b48b500ceacd7afc"
+      - W/"c3dd288b2efff96fbe44e89c82095e88581c50396434e5a4c02ae6ef04de2567"
       Last-Modified:
-      - Tue, 24 Nov 2020 18:50:40 GMT
+      - Tue, 22 Dec 2020 22:56:00 GMT
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -51,11 +51,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4995'
+      - '4960'
       X-Ratelimit-Reset:
-      - '1606249818'
+      - '1608680759'
       X-Ratelimit-Used:
-      - '5'
+      - '40'
       Access-Control-Expose-Headers:
       - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
         X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
@@ -75,11 +75,88 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - FB97:32E5:70781B:84B68F:5FBD62E8
+      - D688:77AE:E459DA3:10721585:5FE27B3C
     body:
       encoding: ASCII-8BIT
-      string: '{"id":314834647,"node_id":"MDEwOlJlcG9zaXRvcnkzMTQ4MzQ2NDc=","name":"blakey","full_name":"calvinhughes/blakey","private":true,"owner":{"login":"calvinhughes","id":9379992,"node_id":"MDQ6VXNlcjkzNzk5OTI=","avatar_url":"https://avatars0.githubusercontent.com/u/9379992?v=4","gravatar_id":"","url":"https://api.github.com/users/calvinhughes","html_url":"https://github.com/calvinhughes","followers_url":"https://api.github.com/users/calvinhughes/followers","following_url":"https://api.github.com/users/calvinhughes/following{/other_user}","gists_url":"https://api.github.com/users/calvinhughes/gists{/gist_id}","starred_url":"https://api.github.com/users/calvinhughes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/calvinhughes/subscriptions","organizations_url":"https://api.github.com/users/calvinhughes/orgs","repos_url":"https://api.github.com/users/calvinhughes/repos","events_url":"https://api.github.com/users/calvinhughes/events{/privacy}","received_events_url":"https://api.github.com/users/calvinhughes/received_events","type":"User","site_admin":false},"html_url":"https://github.com/calvinhughes/blakey","description":"Blakey
-        makes extracting basic statistics from your projects much easier","fork":false,"url":"https://api.github.com/repos/calvinhughes/blakey","forks_url":"https://api.github.com/repos/calvinhughes/blakey/forks","keys_url":"https://api.github.com/repos/calvinhughes/blakey/keys{/key_id}","collaborators_url":"https://api.github.com/repos/calvinhughes/blakey/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/calvinhughes/blakey/teams","hooks_url":"https://api.github.com/repos/calvinhughes/blakey/hooks","issue_events_url":"https://api.github.com/repos/calvinhughes/blakey/issues/events{/number}","events_url":"https://api.github.com/repos/calvinhughes/blakey/events","assignees_url":"https://api.github.com/repos/calvinhughes/blakey/assignees{/user}","branches_url":"https://api.github.com/repos/calvinhughes/blakey/branches{/branch}","tags_url":"https://api.github.com/repos/calvinhughes/blakey/tags","blobs_url":"https://api.github.com/repos/calvinhughes/blakey/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/calvinhughes/blakey/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/calvinhughes/blakey/git/refs{/sha}","trees_url":"https://api.github.com/repos/calvinhughes/blakey/git/trees{/sha}","statuses_url":"https://api.github.com/repos/calvinhughes/blakey/statuses/{sha}","languages_url":"https://api.github.com/repos/calvinhughes/blakey/languages","stargazers_url":"https://api.github.com/repos/calvinhughes/blakey/stargazers","contributors_url":"https://api.github.com/repos/calvinhughes/blakey/contributors","subscribers_url":"https://api.github.com/repos/calvinhughes/blakey/subscribers","subscription_url":"https://api.github.com/repos/calvinhughes/blakey/subscription","commits_url":"https://api.github.com/repos/calvinhughes/blakey/commits{/sha}","git_commits_url":"https://api.github.com/repos/calvinhughes/blakey/git/commits{/sha}","comments_url":"https://api.github.com/repos/calvinhughes/blakey/comments{/number}","issue_comment_url":"https://api.github.com/repos/calvinhughes/blakey/issues/comments{/number}","contents_url":"https://api.github.com/repos/calvinhughes/blakey/contents/{+path}","compare_url":"https://api.github.com/repos/calvinhughes/blakey/compare/{base}...{head}","merges_url":"https://api.github.com/repos/calvinhughes/blakey/merges","archive_url":"https://api.github.com/repos/calvinhughes/blakey/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/calvinhughes/blakey/downloads","issues_url":"https://api.github.com/repos/calvinhughes/blakey/issues{/number}","pulls_url":"https://api.github.com/repos/calvinhughes/blakey/pulls{/number}","milestones_url":"https://api.github.com/repos/calvinhughes/blakey/milestones{/number}","notifications_url":"https://api.github.com/repos/calvinhughes/blakey/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/calvinhughes/blakey/labels{/name}","releases_url":"https://api.github.com/repos/calvinhughes/blakey/releases{/id}","deployments_url":"https://api.github.com/repos/calvinhughes/blakey/deployments","created_at":"2020-11-21T14:51:30Z","updated_at":"2020-11-24T18:50:40Z","pushed_at":"2020-11-24T18:50:38Z","git_url":"git://github.com/calvinhughes/blakey.git","ssh_url":"git@github.com:calvinhughes/blakey.git","clone_url":"https://github.com/calvinhughes/blakey.git","svn_url":"https://github.com/calvinhughes/blakey","homepage":null,"size":7,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":{"key":"mit","name":"MIT
-        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit","node_id":"MDc6TGljZW5zZTEz"},"forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"push":true,"pull":true},"temp_clone_token":"ACHSBGARRBELC2FLAC25YO27XVSBI","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"delete_branch_on_merge":false,"network_count":0,"subscribers_count":1}'
-  recorded_at: Tue, 24 Nov 2020 19:44:48 GMT
+      string: '{"id":314834647,"node_id":"MDEwOlJlcG9zaXRvcnkzMTQ4MzQ2NDc=","name":"blakey","full_name":"calvinhughes/blakey","private":false,"owner":{"login":"calvinhughes","id":9379992,"node_id":"MDQ6VXNlcjkzNzk5OTI=","avatar_url":"https://avatars0.githubusercontent.com/u/9379992?v=4","gravatar_id":"","url":"https://api.github.com/users/calvinhughes","html_url":"https://github.com/calvinhughes","followers_url":"https://api.github.com/users/calvinhughes/followers","following_url":"https://api.github.com/users/calvinhughes/following{/other_user}","gists_url":"https://api.github.com/users/calvinhughes/gists{/gist_id}","starred_url":"https://api.github.com/users/calvinhughes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/calvinhughes/subscriptions","organizations_url":"https://api.github.com/users/calvinhughes/orgs","repos_url":"https://api.github.com/users/calvinhughes/repos","events_url":"https://api.github.com/users/calvinhughes/events{/privacy}","received_events_url":"https://api.github.com/users/calvinhughes/received_events","type":"User","site_admin":false},"html_url":"https://github.com/calvinhughes/blakey","description":"Blakey
+        makes extracting basic statistics from your projects much easier.","fork":false,"url":"https://api.github.com/repos/calvinhughes/blakey","forks_url":"https://api.github.com/repos/calvinhughes/blakey/forks","keys_url":"https://api.github.com/repos/calvinhughes/blakey/keys{/key_id}","collaborators_url":"https://api.github.com/repos/calvinhughes/blakey/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/calvinhughes/blakey/teams","hooks_url":"https://api.github.com/repos/calvinhughes/blakey/hooks","issue_events_url":"https://api.github.com/repos/calvinhughes/blakey/issues/events{/number}","events_url":"https://api.github.com/repos/calvinhughes/blakey/events","assignees_url":"https://api.github.com/repos/calvinhughes/blakey/assignees{/user}","branches_url":"https://api.github.com/repos/calvinhughes/blakey/branches{/branch}","tags_url":"https://api.github.com/repos/calvinhughes/blakey/tags","blobs_url":"https://api.github.com/repos/calvinhughes/blakey/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/calvinhughes/blakey/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/calvinhughes/blakey/git/refs{/sha}","trees_url":"https://api.github.com/repos/calvinhughes/blakey/git/trees{/sha}","statuses_url":"https://api.github.com/repos/calvinhughes/blakey/statuses/{sha}","languages_url":"https://api.github.com/repos/calvinhughes/blakey/languages","stargazers_url":"https://api.github.com/repos/calvinhughes/blakey/stargazers","contributors_url":"https://api.github.com/repos/calvinhughes/blakey/contributors","subscribers_url":"https://api.github.com/repos/calvinhughes/blakey/subscribers","subscription_url":"https://api.github.com/repos/calvinhughes/blakey/subscription","commits_url":"https://api.github.com/repos/calvinhughes/blakey/commits{/sha}","git_commits_url":"https://api.github.com/repos/calvinhughes/blakey/git/commits{/sha}","comments_url":"https://api.github.com/repos/calvinhughes/blakey/comments{/number}","issue_comment_url":"https://api.github.com/repos/calvinhughes/blakey/issues/comments{/number}","contents_url":"https://api.github.com/repos/calvinhughes/blakey/contents/{+path}","compare_url":"https://api.github.com/repos/calvinhughes/blakey/compare/{base}...{head}","merges_url":"https://api.github.com/repos/calvinhughes/blakey/merges","archive_url":"https://api.github.com/repos/calvinhughes/blakey/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/calvinhughes/blakey/downloads","issues_url":"https://api.github.com/repos/calvinhughes/blakey/issues{/number}","pulls_url":"https://api.github.com/repos/calvinhughes/blakey/pulls{/number}","milestones_url":"https://api.github.com/repos/calvinhughes/blakey/milestones{/number}","notifications_url":"https://api.github.com/repos/calvinhughes/blakey/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/calvinhughes/blakey/labels{/name}","releases_url":"https://api.github.com/repos/calvinhughes/blakey/releases{/id}","deployments_url":"https://api.github.com/repos/calvinhughes/blakey/deployments","created_at":"2020-11-21T14:51:30Z","updated_at":"2020-12-22T22:56:00Z","pushed_at":"2020-12-22T22:59:10Z","git_url":"git://github.com/calvinhughes/blakey.git","ssh_url":"git@github.com:calvinhughes/blakey.git","clone_url":"https://github.com/calvinhughes/blakey.git","svn_url":"https://github.com/calvinhughes/blakey","homepage":"","size":29,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":2,"license":{"key":"mit","name":"MIT
+        License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit","node_id":"MDc6TGljZW5zZTEz"},"forks":0,"open_issues":2,"watchers":0,"default_branch":"main","permissions":{"admin":true,"push":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"delete_branch_on_merge":true,"network_count":0,"subscribers_count":2}'
+  recorded_at: Tue, 22 Dec 2020 23:03:25 GMT
+- request:
+    method: get
+    uri: https://api.github.com/search/issues?per_page=1&q=repo:calvinhughes/blakey%20is:pr%20is:open
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.19.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token <GITHUB_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 22 Dec 2020 23:03:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-cache
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      - Accept-Encoding, Accept, X-Requested-With
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Ratelimit-Limit:
+      - '30'
+      X-Ratelimit-Remaining:
+      - '29'
+      X-Ratelimit-Reset:
+      - '1608678265'
+      X-Ratelimit-Used:
+      - '1'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
+        X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - D689:9058:35347D8:3D1A3B4:5FE27B3D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total_count":1,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/calvinhughes/blakey/issues/4","repository_url":"https://api.github.com/repos/calvinhughes/blakey","labels_url":"https://api.github.com/repos/calvinhughes/blakey/issues/4/labels{/name}","comments_url":"https://api.github.com/repos/calvinhughes/blakey/issues/4/comments","events_url":"https://api.github.com/repos/calvinhughes/blakey/issues/4/events","html_url":"https://github.com/calvinhughes/blakey/pull/4","id":773302822,"node_id":"MDExOlB1bGxSZXF1ZXN0NTQ0NDEzMDcw","number":4,"title":"Add
+        open pull requests count to GitHub source","user":{"login":"calvinhughes","id":9379992,"node_id":"MDQ6VXNlcjkzNzk5OTI=","avatar_url":"https://avatars0.githubusercontent.com/u/9379992?v=4","gravatar_id":"","url":"https://api.github.com/users/calvinhughes","html_url":"https://github.com/calvinhughes","followers_url":"https://api.github.com/users/calvinhughes/followers","following_url":"https://api.github.com/users/calvinhughes/following{/other_user}","gists_url":"https://api.github.com/users/calvinhughes/gists{/gist_id}","starred_url":"https://api.github.com/users/calvinhughes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/calvinhughes/subscriptions","organizations_url":"https://api.github.com/users/calvinhughes/orgs","repos_url":"https://api.github.com/users/calvinhughes/repos","events_url":"https://api.github.com/users/calvinhughes/events{/privacy}","received_events_url":"https://api.github.com/users/calvinhughes/received_events","type":"User","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2020-12-22T22:59:10Z","updated_at":"2020-12-22T22:59:10Z","closed_at":null,"author_association":"OWNER","active_lock_reason":null,"draft":false,"pull_request":{"url":"https://api.github.com/repos/calvinhughes/blakey/pulls/4","html_url":"https://github.com/calvinhughes/blakey/pull/4","diff_url":"https://github.com/calvinhughes/blakey/pull/4.diff","patch_url":"https://github.com/calvinhughes/blakey/pull/4.patch"},"body":"","performed_via_github_app":null,"score":1.0}]}'
+  recorded_at: Tue, 22 Dec 2020 23:03:25 GMT
 recorded_with: VCR 6.0.0
