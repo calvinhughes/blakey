@@ -30,6 +30,7 @@ Returns a hash with useful repository data from the GitHub API.
 github_source.repository_overview
 # => {
 #   :open_issues_count=>143, # count of open issues
+#   :open_pull_requests_count=>21, # count of open pull requests
 #   :language=>"Ruby", # configured language of the repo
 #   :visibility=>"private", # visibility of the repo
 #   :url=>"https://github.com/calvinhughes/blakey", # url of the repo
