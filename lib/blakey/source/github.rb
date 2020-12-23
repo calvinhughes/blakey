@@ -25,6 +25,7 @@ module Blakey
       def repository_overview
         {
           open_issues_count: repository.open_issues_count,
+          open_pull_requests_count: open_pull_requests_count,
           language: repository.language,
           visibility: repository.private? ? 'private' : 'public',
           url: repository.html_url,
@@ -35,6 +36,12 @@ module Blakey
       end
 
       private
+
+      def open_pull_requests_count
+        search_query = "repo:#{repo_path} is:pr is:open"
+        search_issues_response = octokit_client.search_issues(search_query, per_page: 1)
+        search_issues_response.total_count
+      end
 
       def repository
         @repository ||= octokit_client.repo(repo_path)
