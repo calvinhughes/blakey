@@ -14,11 +14,6 @@ module Blakey
 
       attr_reader :repo_path
 
-      # TODO: Upgrade Octokit when support for this is merged
-      def vulnerability_alerts_enabled?
-        octokit_client.vulnerability_alerts_enabled?(repo_path, accept: VULNERABILITY_ALERTS_PREVIEW_HEADER)
-      end
-
       def read_file(file_path)
         begin
           encoded_file_content = octokit_client.contents(repo_path, path: file_path).content
@@ -39,11 +34,15 @@ module Blakey
           updated_at: repository.updated_at,
           created_at: repository.created_at,
           last_pushed_at: repository.pushed_at,
-          vulnerability_alerts_enabled: false
+          vulnerability_alerts_enabled: vulnerability_alerts_enabled?
         }
       end
 
       private
+
+      def vulnerability_alerts_enabled?
+        octokit_client.vulnerability_alerts_enabled?(repo_path, accept: VULNERABILITY_ALERTS_PREVIEW_HEADER)
+      end
 
       def open_pull_requests_count
         search_query = "repo:#{repo_path} is:pr is:open"

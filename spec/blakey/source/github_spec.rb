@@ -7,14 +7,14 @@ describe Blakey::Source::Github do
     it 'returns the repository stats from the GitHub API', :vcr do
       expect(subject.repository_overview).to eq({
         open_issues_count: 2,
-        open_pull_requests_count: 1,
+        open_pull_requests_count: 0,
         language: 'Ruby',
         visibility: 'public',
         url: 'https://github.com/calvinhughes/blakey',
-        updated_at: Time.parse('2020-12-22T22:56:00Z'),
+        updated_at: Time.parse('2020-12-23T15:44:42Z'),
         created_at: Time.parse('2020-11-21T14:51:30Z'),
-        last_pushed_at: Time.parse('2020-12-22T22:59:10Z')
-        vulnerability_alerts_enabled: false
+        last_pushed_at: Time.parse('2020-12-23T15:34:38Z'),
+        vulnerability_alerts_enabled: true
       })
     end
   end
