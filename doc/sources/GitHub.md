@@ -37,5 +37,6 @@ github_source.repository_overview
 #   :updated_at=>2020-11-20 13:43:54 UTC, # when it was last updated
 #   :created_at=>2012-03-16 09:14:34 UTC, # when it was created
 #   :last_pushed_at=>2020-11-20 14:01:40 UTC, # when it was last pushed to
+#   :vulnerability_alerts_enabled=>false # whether vulnerability alerts are enabled
 # }
 ```

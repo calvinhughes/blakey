@@ -14,6 +14,7 @@ describe Blakey::Source::Github do
         updated_at: Time.parse('2020-12-22T22:56:00Z'),
         created_at: Time.parse('2020-11-21T14:51:30Z'),
         last_pushed_at: Time.parse('2020-12-22T22:59:10Z')
+        vulnerability_alerts_enabled: false
       })
     end
   end
